@@ -1,0 +1,39 @@
+##----------------------------------------Arguments----------------------------------------##
+#  Required
+WorkFolder [-w,--workFolder] = .
+Expresion data file path [-d,--dataF] = .
+
+#  Optional
+Meta info file describing expression files [-m, --metaInf] = .\#FileInfo.txt
+Separator used in expression file [-s, --fileSep] = 	
+Retain gene fraction [-f, --retainF] = 0.8
+Fraction of expression files gene required in to be retained [-g, --geneFrac] = 0.3333333333333333
+Edges to retain per gene [-e, --edgePG] = 3
+Decimal places to round to before edge reduction [-r, --roundL] = 3
+
+#  Main FoldersRoot output folder [--outF] = PGCNA
+Correlation matrix folder [--corrMatF] = CORR_MATRIX
+Single Gene Correlation files folder [--corrMatFS] = CORR_MATRIX_SG
+Gephi files folder [--gephiF] = GEPHI
+
+#  Flags
+Don't run Fast Unfolding clustering [--noLeidenalg] = False
+Use Pearson Correlation [--usePearson] = False
+Keep all big HDF5 files after run [--keepBigFA] = False
+Keep median correlations HDF5 files after run [--keepBigF] = False
+Ignore correlation duplicates when cutting top --edgePG genes [--ignoreDuplicates] = False
+Output individual gene correlation files [--singleCorr] = False
+Output individual gene correlation files for select list (--singleCorrListF) [--singleCorrL] = False
+
+#  Single gene correlation options
+List of genes to process if --singleCorrL [--singleCorrListF]:	corrGenes.txt
+
+#  Correlation Options
+Chunk size (rows) to split correlation over [--corrChunk]:	5000
+
+#  Leidenalg Specific
+Run number [-n, --laNumber]:	100
+Copy top % of clusterings into *_BEST folder [-b, --laBestPerc]:	10
+Base folder [--lBaseFold] = LEIDENALG
+Clusters text folder [--lClustTxtFold] = ClustersTxt
+Clusters List folder [--lClustListFold] = ClustersLists

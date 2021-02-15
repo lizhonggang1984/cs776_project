@@ -1,0 +1,10 @@
+INFO: Mon Feb 15 09:32:14 2021
+INFO: Working directory: F:\python_projects\cs776
+INFO: Saving blocks for each iteration? TRUE
+INFO: Merging final modules if cutHeight <= 0.05
+INFO: Allowing WGCNA Threads? FALSE
+INFO: Running WGCNA with the following params:
+INFO: {'numericLabels': True, 'networkType': 'signed', 'minKMEtoStay': 0.8, 'minCoreKME': 0.8, 'minModuleSize': 20, 'reassignThreshold': 0.05, 'power': 6, 'saveTOMs': False}
+INFO: Loaded file: expr_matrix.txt
+INFO: 192 Samples
+INFO: 17077 Genes
