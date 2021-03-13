@@ -13,7 +13,7 @@ data3 = clust
 data4 = WGCNA
 data5 = HDBSCAN
 
-Weights:
+                  Weights
 2.1 LemonTree
 2.2 PGCNA
 2.3 CLUST
