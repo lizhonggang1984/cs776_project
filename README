@@ -1,0 +1,25 @@
+1.Dataset Information
+
+We downloaded our dataset (Diversity Outbred mouse liver female RNA sequencing data, GEO-GSE72759) from PubMed database. 
+
+Dataset	Genes	Samples
+Training	17077	192
+
+
+
+2.Weights Information
+data1 = np.genfromtxt('D:\ProgramData\R\matrix1.csv',delimiter=',') #lemontree
+data2 = np.genfromtxt('D:\ProgramData\matrix2.csv',delimiter=',') #PGCNA
+data3 = np.genfromtxt('D:\ProgramData\matrix3.csv',delimiter=',') #clust
+data4 = np.genfromtxt('D:\ProgramData\matrix4.csv',delimiter=',') # WGCNA
+data5 = np.genfromtxt('D:\ProgramData\matrix5.csv',delimiter=',') #HDBSCAN
+
+Weights:
+2.1 LemonTree
+2.2 PGCNA
+2.3 CLUST
+2.4 WGCNA
+2.5 HDBSCAN
+
+
+3.
