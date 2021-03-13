@@ -6,13 +6,12 @@ Dataset	Genes	Samples
 Training	17077	192
 
 
-
 2.Weights Information
-data1 = np.genfromtxt('D:\ProgramData\R\matrix1.csv',delimiter=',') #lemontree
-data2 = np.genfromtxt('D:\ProgramData\matrix2.csv',delimiter=',') #PGCNA
-data3 = np.genfromtxt('D:\ProgramData\matrix3.csv',delimiter=',') #clust
-data4 = np.genfromtxt('D:\ProgramData\matrix4.csv',delimiter=',') # WGCNA
-data5 = np.genfromtxt('D:\ProgramData\matrix5.csv',delimiter=',') #HDBSCAN
+data1 = LemonTree
+data2 = PGCNA
+data3 = clust
+data4 = WGCNA
+data5 = HDBSCAN
 
 Weights:
 2.1 LemonTree
